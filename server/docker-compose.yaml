@@ -83,7 +83,7 @@ services:
         service: grafana
 
   start_dependencies:
-    image: mattermost/mattermost-wait-for-dep:latest
+    image: cybrixsystems/mattermost-wait-for-dep
     networks:
       - mm-test
     depends_on:
